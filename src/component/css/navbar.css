@@ -1,0 +1,19 @@
+/* Navbar */
+.navbar-brand img{
+    padding-right: 16px;
+}
+.navbar-brand span{
+    font-weight: var(--font-weight-medium);
+    font-size: var(--text-medium);
+    color: var(--dark-brown);
+}
+.navbar{
+    padding: 20px 0;
+}
+a.nav-link{
+    margin-right: 39px;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--text-regular);
+    color: var(--dark-brown) !important;
+    
+}
