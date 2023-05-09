@@ -215,12 +215,12 @@ export default function Potatodoc() {
                     </div>
                   )}
                 </div>
-                <div className="treatments">
+                {/* <div className="treatments">
                   <div className="treatment-title">Treatments</div>
                   <div className="treatment-subtitle">
                     <a href="https://www.agric.wa.gov.au/pest-insects/potato-leaf-diseases">Potato Leaf Diseases</a>
                     </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="image-view pb-3 pt-5">
