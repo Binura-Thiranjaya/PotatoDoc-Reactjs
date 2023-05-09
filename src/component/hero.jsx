@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import "./css/hero.css";
-import Hero_Image from "../assets/image/biology.png";
 export default function Hero() {
 
   return (
