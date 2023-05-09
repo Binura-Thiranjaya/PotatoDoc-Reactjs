@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/BinuraThiranjaya1/PotatoDoc-Reactjs/static/css/main.5421ffc4.css",
-    "main.js": "/BinuraThiranjaya1/PotatoDoc-Reactjs/static/js/main.1016c9e2.js",
-    "static/media/fa-solid-900.ttf": "/BinuraThiranjaya1/PotatoDoc-Reactjs/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
-    "static/media/fa-brands-400.ttf": "/BinuraThiranjaya1/PotatoDoc-Reactjs/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
-    "static/media/fa-solid-900.woff2": "/BinuraThiranjaya1/PotatoDoc-Reactjs/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
-    "static/media/fa-brands-400.woff2": "/BinuraThiranjaya1/PotatoDoc-Reactjs/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
-    "static/media/fa-regular-400.ttf": "/BinuraThiranjaya1/PotatoDoc-Reactjs/static/media/fa-regular-400.d87474231f4192884802.ttf",
-    "static/media/potatodoc-logo-removebg-preview.png": "/BinuraThiranjaya1/PotatoDoc-Reactjs/static/media/potatodoc-logo-removebg-preview.0b33f277633625036feb.png",
-    "static/media/fa-regular-400.woff2": "/BinuraThiranjaya1/PotatoDoc-Reactjs/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
-    "static/media/fa-v4compatibility.ttf": "/BinuraThiranjaya1/PotatoDoc-Reactjs/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
-    "static/media/fa-v4compatibility.woff2": "/BinuraThiranjaya1/PotatoDoc-Reactjs/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
-    "index.html": "/BinuraThiranjaya1/PotatoDoc-Reactjs/index.html",
-    "main.5421ffc4.css.map": "/BinuraThiranjaya1/PotatoDoc-Reactjs/static/css/main.5421ffc4.css.map",
-    "main.1016c9e2.js.map": "/BinuraThiranjaya1/PotatoDoc-Reactjs/static/js/main.1016c9e2.js.map"
+    "main.css": "/PotatoDoc-Reactjs/static/css/main.af544e5b.css",
+    "main.js": "/PotatoDoc-Reactjs/static/js/main.cc6650a9.js",
+    "static/media/fa-solid-900.ttf": "/PotatoDoc-Reactjs/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/PotatoDoc-Reactjs/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/PotatoDoc-Reactjs/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/PotatoDoc-Reactjs/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/PotatoDoc-Reactjs/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/potatodoc-logo-removebg-preview.png": "/PotatoDoc-Reactjs/static/media/potatodoc-logo-removebg-preview.0b33f277633625036feb.png",
+    "static/media/fa-regular-400.woff2": "/PotatoDoc-Reactjs/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/PotatoDoc-Reactjs/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/PotatoDoc-Reactjs/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/PotatoDoc-Reactjs/index.html",
+    "main.af544e5b.css.map": "/PotatoDoc-Reactjs/static/css/main.af544e5b.css.map",
+    "main.cc6650a9.js.map": "/PotatoDoc-Reactjs/static/js/main.cc6650a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.5421ffc4.css",
-    "static/js/main.1016c9e2.js"
+    "static/css/main.af544e5b.css",
+    "static/js/main.cc6650a9.js"
   ]
 }
