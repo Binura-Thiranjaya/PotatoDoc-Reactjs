@@ -20,10 +20,8 @@ export default function Potatodoc() {
   }
   const handlePredictUsingURL = async (value) => {
     console.log(value);
-    const predictionUrl =
-      "https://potatodoc.cognitiveservices.azure.com/customvision/v3.0/Prediction/c2ca3d90-f6a5-4ff8-9aa7-b98e23216438/classify/iterations/Potato%20Leaf%20Diseases/url";
-
-    const predictionKey = "712ac5944523408d919352a3b0916107";
+    const predictionUrl = process.env.REACT_APP_PREDICTION_URL_URL;
+    const predictionKey = process.env.REACT_APP_PREDICTION_KEY;
     const contentType = "application/json";
     const BodyURL = { Url: `${value}` };
 
@@ -48,9 +46,8 @@ export default function Potatodoc() {
   };
 
   const handlePredictUsingFile = async (value) => {
-    const predictionUrl =
-      "https://potatodoc.cognitiveservices.azure.com/customvision/v3.0/Prediction/c2ca3d90-f6a5-4ff8-9aa7-b98e23216438/classify/iterations/Potato%20Leaf%20Diseases/image";
-    const predictionKey = "712ac5944523408d919352a3b0916107";
+    const predictionKey = process.env.REACT_APP_PREDICTION_KEY;
+    const predictionUrl = process.env.REACT_APP_PREDICTION_IMAGE_URL;//process.env.REACT_APP_PREDICTION_IMAGE_URL
     const contentType = "application/octet-stream";
     console.log(value);
 
