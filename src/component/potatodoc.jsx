@@ -19,7 +19,7 @@ export default function Potatodoc() {
     });
   }
   const handlePredictUsingURL = async (value) => {
-    console.log(value);
+    //console.log(value);
     const predictionUrl = process.env.REACT_APP_PREDICTION_URL_URL;
     const predictionKey = process.env.REACT_APP_PREDICTION_KEY;
     const contentType = "application/json";

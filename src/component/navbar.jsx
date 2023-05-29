@@ -8,8 +8,7 @@ export default function navbar() {
         <div className="container">
           <a className="navbar-brand" href="#">
             <img src={logo} alt="" width="100px" height="50px"/>
-            <span>PotatoDoc</span>
-            
+            {/* <span>PotatoDoc</span> */}
           </a>
           <button
             className="navbar-toggler shadow-none"
@@ -23,10 +22,16 @@ export default function navbar() {
             <i className='bx bx-menu'></i>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav ms-auto">
-                <a className="nav-link" href="/#">Treatments</a>
+          <div className="navbar-nav ms-auto">
+                <a className="nav-link" href="/info">Information</a>
             </div>
-            <a className="btn btn-primary shadow-none" href="/#" role="button">Login</a>
+            <div className="navbar-nav">
+                <a className="nav-link" href="/disease">Disease Management</a>
+            </div>
+            <div className="navbar-nav ">
+                <a className="nav-link" href="/pest">Pest Management</a>
+            </div>
+            <a className="btn btn-primary shadow-none" href="/#" role="button">Inquiry</a>
 
           </div>
         </div>
