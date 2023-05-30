@@ -6,7 +6,7 @@ export default function navbar() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-white">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/PotatoDoc-Reactjs">
             <img src={logo} alt="" width="100px" height="50px"/>
             {/* <span>PotatoDoc</span> */}
           </a>
@@ -31,7 +31,7 @@ export default function navbar() {
             <div className="navbar-nav ">
                 <a className="nav-link" href="/pest">Pest Management</a>
             </div>
-            <a className="btn btn-primary shadow-none" href="/#" role="button">Inquiry</a>
+            {/* <a className="btn btn-primary shadow-none" href="/#" role="button">Inquiry</a> */}
 
           </div>
         </div>

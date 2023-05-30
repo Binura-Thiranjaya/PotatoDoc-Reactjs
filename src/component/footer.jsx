@@ -33,7 +33,7 @@ export default function footer() {
               </ul>
             </div>
           </div>
-          <div className="col">
+          {/* <div className="col">
             <div className="footer-title text-center">Inquiry</div>
             <div className="">
               <ul>
@@ -64,7 +64,7 @@ export default function footer() {
                 <button type="submit" className="btn btn-danger">Send</button>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
         
       </div>
