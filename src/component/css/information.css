@@ -50,3 +50,13 @@
     padding-top: 1%;
     padding-bottom: 5%;
 }
+.collapse{
+    padding-bottom: 2%;
+}
+
+.card-body{
+    font-weight: var(--font-weight-medium);
+    font-size: var(--text-regular);
+    color: var(--gray-1);
+    padding-top: 1%;
+}
