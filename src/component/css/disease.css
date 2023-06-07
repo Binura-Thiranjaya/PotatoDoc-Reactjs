@@ -5,3 +5,16 @@
     line-height:  74px;
     padding-top: 1%;
 }
+.card-title{
+    font-weight: var(--font-weight-bold);
+    font-size: var(--header4);
+    color: var(--dark-brown);
+    line-height:  74px;
+    padding-top: 1%;
+}
+.disease_data{
+    font-weight: var(--font-weight-semi-bold);
+    font-size: var(--text-regular);
+    color: var(--gray-1);
+    text-align: justify;
+}

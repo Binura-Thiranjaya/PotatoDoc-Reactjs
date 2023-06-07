@@ -208,7 +208,6 @@ export default function information() {
               </div>
             </div>
           </div>
-
           {/* Harvesting
            */}
           <div className="row">
@@ -231,7 +230,6 @@ export default function information() {
               </div>
             </div>
           </div>
-
           {/* Yield
            */}
           <div className="row">

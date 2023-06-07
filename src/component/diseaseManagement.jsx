@@ -10,13 +10,6 @@ export default function DiseaseManagement() {
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
-  // console.log(data[7])
-  // //print the name
-  // const name = data.map((item) => {
-  //   item = item.name;
-  //   return item;
-  // });
-  // console.log(name);
 
   return (
     <div>
@@ -31,17 +24,19 @@ export default function DiseaseManagement() {
           <div className="col">
             <div className="disease-content-right">
               <div className="disease-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Architecto reiciendis totam, et quas aliquid voluptates
-                accusantium, omnis excepturi assumenda aspernatur repellendus
-                debitis veritatis, consequuntur nulla sint ea eius nostrum
-                quibusdam.
+                Disease management in PotatoDoc involves the effective
+                identification, prevention, and treatment of potato leaf
+                diseases. The application uses image processing and analysis
+                techniques to identify the disease affecting potato plants based
+                on visual symptoms. Once the disease is identified, PotatoDoc
+                provides detailed information about the specific disease,
+                including its causes, symptoms, and potential impact on the
+                plants.
               </div>
             </div>
           </div>
         </div>
         <div className="details pt-4">
-          {/* map the data */}
           {data.map((item, index) => {
             return (
               <div className="row" key={index}>
@@ -59,26 +54,48 @@ export default function DiseaseManagement() {
                 </p>
                 <div className="collapse" id={item.subname}>
                   <div className="card card-body">
-                    <div className="">Treatments</div>
-                    {item.treatments.map((treatment, index) => {
-                      return (
-                        <div className="" key={index}>
-                          <ul>
-                            <li>{treatment.treatment}</li>
-                          </ul>
-                        </div>
-                      );
-                    })}
-                    <div className="">Fungicide</div>
-                    {item.fungicides.map((fungicide, index) => {
-                      return (
-                        <div className="" key={index}>
-                          <ul>
-                            <li>{fungicide.fungicide}</li>
-                          </ul>
-                          </div>
-                      );
-                    })}
+                    <div className="row">
+                      <div className="col-md-6">
+                        <div className="card-title">Treatments</div>
+                        {item.treatments.map((treatment, index) => {
+                          return (
+                            <div className="disease_data" key={index}>
+                              <ul>
+                                <li>{treatment.treatment}</li>
+                              </ul>
+                            </div>
+                          );
+                        })}
+                        <div className="card-title">Fungicide</div>
+                        {item.fungicides.map((fungicide, index) => {
+                          return (
+                            <div className="disease_data" key={index}>
+                              <ul>
+                                <li>{fungicide.fungicide}</li>
+                              </ul>
+                            </div>
+                          );
+                        })}
+                      </div>
+                      <div className="col-md-6">
+                        <div className="card-title">Images</div>
+                        {item.images.map((image, index) => {
+                          return (
+                            <div className="pb-1" key={index}>
+                              <div className="">
+                                <img
+                                  src={require(`../assets/POTATODOC-DISEASE/${item.name}/${image.image}`)}
+                                  alt="Disease"
+                                  width="200px"
+                                  height="200px"
+                                  className="rounded-3"
+                                />
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
