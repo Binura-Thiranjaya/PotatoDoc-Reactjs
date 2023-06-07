@@ -7,7 +7,7 @@ export default function navbar() {
       <nav className="navbar navbar-expand-lg navbar-light bg-white">
         <div className="container">
           <a className="navbar-brand" href="/PotatoDoc-Reactjs">
-            <img src={logo} alt="" width="100px" height="50px"/>
+            <img src={logo} alt="" width="200px" height="70px"/>
             {/* <span>PotatoDoc</span> */}
           </a>
           <button

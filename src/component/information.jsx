@@ -208,6 +208,49 @@ export default function information() {
               </div>
             </div>
           </div>
+
+          {/* Harvesting
+           */}
+          <div className="row">
+            <p>
+              <button
+                class="btn btn-primary btn-block"
+                type="button"
+                data-toggle="collapse"
+                data-target="#harvesting"
+                aria-expanded="false"
+                aria-controls="harvesting"
+              >
+                Harvesting
+              </button>
+            </p>
+            <div class="collapse" id="harvesting">
+              <div class="card card-body">
+                Haulms should be removed 2 weeks before harvesting for maturing
+                tubers
+              </div>
+            </div>
+          </div>
+
+          {/* Yield
+           */}
+          <div className="row">
+            <p>
+              <button
+                class="btn btn-primary btn-block"
+                type="button"
+                data-toggle="collapse"
+                data-target="#yield"
+                aria-expanded="false"
+                aria-controls="yield"
+              >
+                Yield
+              </button>
+            </p>
+            <div class="collapse" id="yield">
+              <div class="card card-body">20-25 t/ha</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
