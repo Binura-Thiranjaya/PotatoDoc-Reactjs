@@ -5,16 +5,21 @@ export default function footer() {
     <div className="container pt-4 pb-5" style={{ color: "black" }}>
       <div className="footer">
         <div className="row">
-        <div className="col">
-        <div className="footer-title text-center">About Us</div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam placeat, voluptates aperiam suscipit soluta veritatis pariatur molestias cumque quaerat id excepturi culpa, libero impedit omnis itaque sit reprehenderit! Ipsum, soluta?
-          </p>
-        </div>
+          <div className="col">
+            <div className="footer-title text-center">About Us</div>
+            <p className="about-us-title pl-2">
+              This application is a final year research project developed with
+              the aim of providing an efficient and user-friendly solution for
+              disease detection and management in potato crops. Our team has
+              dedicated significant effort and expertise to create a
+              comprehensive system that utilizes advanced technologies to
+              improve the agricultural practices of potato growers.{" "}
+            </p>
+          </div>
 
           <div className="col">
             <div className="footer-title text-center">Services</div>
-            <div className="">
+            <div className="service">
               <ul>
                 <li>
                   <a href="/info">Information</a>
@@ -66,12 +71,12 @@ export default function footer() {
             </div>
           </div> */}
         </div>
-        
       </div>
       <div className="pt-3 pb-1 bg-danger">
-          <p className="text-center h6">Project By Binura Thiranjaya @2023 Version: 1.1</p>
-        </div>
+        <p className="text-center h6">
+          Project By Binura Thiranjaya @2023 Version: 1.2
+        </p>
+      </div>
     </div>
-    
   );
 }

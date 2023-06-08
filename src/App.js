@@ -3,6 +3,7 @@ import PotatoDoc from "./page/potatoDoc/index.jsx";
 import Information from "./page/info/index.jsx";
 import Disease from "./page/disease/index.jsx";
 import Pest from "./page/pest/index.jsx";
+import Maintenance from "./page/maintenance/index.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
           <Route path="/PotatoDoc-Reactjs" element={<PotatoDoc />}></Route>
           <Route path="/info" element={<Information />} />
           <Route path="disease" element={<Disease />} />
-          <Route path="pest" element={<Pest />} />
+          <Route path="pest" element={<Maintenance />} />
         </Routes>
       </BrowserRouter>
     </div>
