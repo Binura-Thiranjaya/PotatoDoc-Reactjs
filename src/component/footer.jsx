@@ -2,7 +2,7 @@ import React from "react";
 import "./css/footer.css";
 export default function footer() {
   return (
-    <div className="container pt-4 pb-5" style={{ color: "black" }}>
+    <div className=" pt-4" style={{ color: "black" }}>
       <div className="footer">
         <div className="row">
           <div className="col">
