@@ -5,11 +5,34 @@ import Disease from "../assets/image/disease.png";
 export default function DiseaseManagement() {
   //fetch data
   const [data, setData] = useState([]);
-  useEffect(() => {
-    fetch("http://localhost:3000/disease")
-      .then((res) => res.json())
-      .then((data) => setData(data));
-  }, []);
+  //use async on page load
+  window.onload = async () => {
+    const DiseaseAPI = process.env.REACT_APP_BACKEND_API;
+    const response = await fetch(DiseaseAPI+"disease");
+    const data = await response.json();
+    setData(data);
+  };
+
+
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const DiseaseAPI = process.env.REACT_APP_BACKEND_API;
+  //     const response = await fetch(DiseaseAPI+"disease");
+  //     const data = await response.json();
+  //     setData(data);
+  //     console.log(data);
+  //     alert("Data Loaded");
+  //   };
+  //   fetchData();
+  // }, []);
+  
+
+
+  // useEffect(() => {
+  //   fetch("http://localhost:3000/disease")
+  //     .then((res) => res.json())
+  //     .then((data) => setData(data));
+  // }, []);
 
   return (
     <div>

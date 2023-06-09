@@ -149,13 +149,11 @@ export default function information() {
                 className="btn btn-primary btn-block"
                 type="button"
                 data-toggle="collapse"
-                data-target="#spacing
-                "
+                data-target="#spacing"
                 aria-expanded="false"
-                aria-controls="spacing
-                "
+                aria-controls="spacing"
               >
-                Soil
+                Spacing
               </button>
             </p>
             <div className="collapse" id="spacing">
