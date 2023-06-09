@@ -1,10 +1,11 @@
 import React from "react";
 import { useState } from "react";
 import "./css/hero.css";
+import BgImage from "../assets/image/bg.png";
 export default function Hero() {
 
   return (
-    <section className="hero">
+    <section className="hero" style={{ backgroundImage:`url(${BgImage})`}}>
       <div className="container">
         <div className="row">
           <div className="col-md-6">

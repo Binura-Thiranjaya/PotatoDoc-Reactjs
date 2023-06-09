@@ -1,7 +1,14 @@
 section.hero{
     margin: 5rem 0;
-
+    padding-bottom: 5rem;
 }
+/* background image size */
+.hero{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .text-label,
 .text-hero-bold,
 .text-hero-regular{
@@ -20,9 +27,9 @@ section.hero{
     line-height:  74px;
 }
 .text-hero-regular{
-    font-weight: var(--font-weight-regular);
+    font-weight: var(--font-weight-medium);
     font-size: var(--text-regular);
-    color: var(--gray-1);
+    color: var(--grey-1);
     line-height:  31px;
 }
 /* .preview-container {

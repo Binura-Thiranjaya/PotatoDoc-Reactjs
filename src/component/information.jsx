@@ -42,7 +42,7 @@ export default function information() {
           <div className="row  ">
             <p>
               <button
-                class="btn btn-primary btn-block"
+                className="btn btn-primary btn-block"
                 type="button"
                 data-toggle="collapse"
                 data-target="#climaticRequirements"
@@ -52,8 +52,8 @@ export default function information() {
                 Climatic requirements/ Areas suitable for cultivation
               </button>
             </p>
-            <div class="collapse" id="climaticRequirements">
-              <div class="card card-body">
+            <div className="collapse" id="climaticRequirements">
+              <div className="card card-body">
                 Tuber initiation of potato requires low soil temperature less
                 than 24 oC. Day and night temperature difference should have
                 more than 10 oC for successful crop. Potato grows well in up
@@ -66,7 +66,7 @@ export default function information() {
           <div className="row  ">
             <p>
               <button
-                class="btn btn-primary btn-block"
+                className="btn btn-primary btn-block"
                 type="button"
                 data-toggle="collapse"
                 data-target="#soil"
@@ -76,8 +76,8 @@ export default function information() {
                 Soil
               </button>
             </p>
-            <div class="collapse" id="soil">
-              <div class="card card-body">
+            <div className="collapse" id="soil">
+              <div className="card card-body">
                 Well drain soil with more organic matter is required. Suitable
                 pH range is 5.5-6.6.
               </div>
@@ -87,7 +87,7 @@ export default function information() {
           <div className="row">
             <p>
               <button
-                class="btn btn-primary btn-block"
+                className="btn btn-primary btn-block"
                 type="button"
                 data-toggle="collapse"
                 data-target="#seed"
@@ -97,15 +97,15 @@ export default function information() {
                 Seed requirement
               </button>
             </p>
-            <div class="collapse" id="seed">
-              <div class="card card-body">2000 kg tubers /ha</div>
+            <div className="collapse" id="seed">
+              <div className="card card-body">2000 kg tubers /ha</div>
             </div>
           </div>
           {/* Land preparation */}
           <div className="row">
             <p>
               <button
-                class="btn btn-primary btn-block"
+                className="btn btn-primary btn-block"
                 type="button"
                 data-toggle="collapse"
                 data-target="#land"
@@ -115,8 +115,8 @@ export default function information() {
                 Land preparation
               </button>
             </p>
-            <div class="collapse" id="land">
-              <div class="card card-body">
+            <div className="collapse" id="land">
+              <div className="card card-body">
                 Plough soil to the depth of 30 cm and add lime if pH is low.
               </div>
             </div>
@@ -125,7 +125,7 @@ export default function information() {
           <div className="row">
             <p>
               <button
-                class="btn btn-primary btn-block"
+                className="btn btn-primary btn-block"
                 type="button"
                 data-toggle="collapse"
                 data-target="#planting"
@@ -135,8 +135,8 @@ export default function information() {
                 Planting
               </button>
             </p>
-            <div class="collapse" id="planting">
-              <div class="card card-body">
+            <div className="collapse" id="planting">
+              <div className="card card-body">
                 Potato tubers can be planted in ridges or raised beds. Soil
                 earthing up is carried out 30 days after planting
               </div>
@@ -146,7 +146,7 @@ export default function information() {
           <div className="row">
             <p>
               <button
-                class="btn btn-primary btn-block"
+                className="btn btn-primary btn-block"
                 type="button"
                 data-toggle="collapse"
                 data-target="#spacing
@@ -158,15 +158,15 @@ export default function information() {
                 Soil
               </button>
             </p>
-            <div class="collapse" id="spacing">
-              <div class="card card-body">60 x 25 cm</div>
+            <div className="collapse" id="spacing">
+              <div className="card card-body">60 x 25 cm</div>
             </div>
           </div>
           {/*Water supply */}
           <div className="row">
             <p>
               <button
-                class="btn btn-primary btn-block"
+                className="btn btn-primary btn-block"
                 type="button"
                 data-toggle="collapse"
                 data-target="#water"
@@ -176,8 +176,8 @@ export default function information() {
                 Water supply
               </button>
             </p>
-            <div class="collapse" id="water">
-              <div class="card card-body">
+            <div className="collapse" id="water">
+              <div className="card card-body">
                 Tuberization and tuber bulking stages are critical for water
                 supply. High yielding crop required about 70 % available water.
                 Sprinkler or drip irrigation methods are more suitable than the
@@ -190,7 +190,7 @@ export default function information() {
           <div className="row">
             <p>
               <button
-                class="btn btn-primary btn-block"
+                className="btn btn-primary btn-block"
                 type="button"
                 data-toggle="collapse"
                 data-target="#weed"
@@ -200,8 +200,8 @@ export default function information() {
                 Weed Control
               </button>
             </p>
-            <div class="collapse" id="weed">
-              <div class="card card-body">
+            <div className="collapse" id="weed">
+              <div className="card card-body">
                 Pre-emergent herbicide: metribuzine can be spray to control
                 weeds. Weeds also control by intercultural operations at 2 and 4
                 weeks after planting.
@@ -213,7 +213,7 @@ export default function information() {
           <div className="row">
             <p>
               <button
-                class="btn btn-primary btn-block"
+                className="btn btn-primary btn-block"
                 type="button"
                 data-toggle="collapse"
                 data-target="#harvesting"
@@ -223,8 +223,8 @@ export default function information() {
                 Harvesting
               </button>
             </p>
-            <div class="collapse" id="harvesting">
-              <div class="card card-body">
+            <div className="collapse" id="harvesting">
+              <div className="card card-body">
                 Haulms should be removed 2 weeks before harvesting for maturing
                 tubers
               </div>
@@ -235,7 +235,7 @@ export default function information() {
           <div className="row">
             <p>
               <button
-                class="btn btn-primary btn-block"
+                className="btn btn-primary btn-block"
                 type="button"
                 data-toggle="collapse"
                 data-target="#yield"
@@ -245,8 +245,8 @@ export default function information() {
                 Yield
               </button>
             </p>
-            <div class="collapse" id="yield">
-              <div class="card card-body">20-25 t/ha</div>
+            <div className="collapse" id="yield">
+              <div className="card card-body">20-25 t/ha</div>
             </div>
           </div>
         </div>

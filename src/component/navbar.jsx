@@ -5,9 +5,8 @@ export default function navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-white">
-        <div className="container">
           <a className="navbar-brand" href="/PotatoDoc-Reactjs">
-            <img src={logo} alt="" width="200px" height="70px"/>
+            <img src={logo} alt="" width="200px" height="60px"/>
             {/* <span>PotatoDoc</span> */}
           </a>
           <button
@@ -22,20 +21,23 @@ export default function navbar() {
             <i className='bx bx-menu'></i>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav ms-auto">
-                <a className="nav-link" href="/info">Information</a>
+          <div className="navbar-nav ms-auto ">
+                <a className="nav-link custom-btn btn-1 shadow-none" href="/PotatoDoc-Reactjs">Home</a>
+            </div>
+          <div className="navbar-nav">
+                <a className="nav-link custom-btn btn-1 shadow-none" href="/info">Information</a>
             </div>
             <div className="navbar-nav">
-                <a className="nav-link" href="/disease">Disease Management</a>
+                <a className="nav-link custom-btn btn-1 shadow-none" href="/disease">Disease Management</a>
             </div>
             <div className="navbar-nav ">
-                <a className="nav-link" href="/pest">Pest Management</a>
+                <a className="nav-link custom-btn btn-1 shadow-none" href="/pest">Pest Management</a>
             </div>
             {/* <a className="btn btn-primary shadow-none" href="/#" role="button">Inquiry</a> */}
 
           </div>
-        </div>
       </nav>
     </div>
+      
   );
 }

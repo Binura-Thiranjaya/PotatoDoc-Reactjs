@@ -77,19 +77,28 @@ export default function DiseaseManagement() {
                           );
                         })}
                       </div>
-                      <div className="col-md-6">
+                      <div className="col-md-3">
                         <div className="card-title">Images</div>
                         {item.images.map((image, index) => {
                           return (
                             <div className="pb-1" key={index}>
                               <div className="">
-                                <img
+                                <iframe
+                                  src={image.image}
+                                  width="300px"
+                                  height="200px"
+                                  frameBorder="0"
+                                  scrolling="no"
+                                  className="rounded-3"
+                                  title={item.name}
+                                ></iframe>
+                                {/* <img
                                   src={require(`../assets/POTATODOC-DISEASE/${item.name}/${image.image}`)}
                                   alt="Disease"
                                   width="200px"
                                   height="200px"
                                   className="rounded-3"
-                                />
+                                /> */}
                               </div>
                             </div>
                           );
