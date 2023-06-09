@@ -25,13 +25,13 @@ export default function navbar() {
                 <a className="nav-link custom-btn btn-1 shadow-none" href="/PotatoDoc-Reactjs">Home</a>
             </div>
           <div className="navbar-nav">
-                <a className="nav-link custom-btn btn-1 shadow-none" href="/info">Information</a>
+                <a className="nav-link custom-btn btn-1 shadow-none" href="/PotatoDoc-Reactjs/info">Information</a>
             </div>
             <div className="navbar-nav">
-                <a className="nav-link custom-btn btn-1 shadow-none" href="/disease">Disease Management</a>
+                <a className="nav-link custom-btn btn-1 shadow-none" href="/PotatoDoc-Reactjs/disease">Disease Management</a>
             </div>
             <div className="navbar-nav ">
-                <a className="nav-link custom-btn btn-1 shadow-none" href="/pest">Pest Management</a>
+                <a className="nav-link custom-btn btn-1 shadow-none" href="/PotatoDoc-Reactjs/pest">Pest Management</a>
             </div>
             {/* <a className="btn btn-primary shadow-none" href="/#" role="button">Inquiry</a> */}
 
