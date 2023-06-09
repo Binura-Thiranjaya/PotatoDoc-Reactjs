@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PotatoDoc-Reactjs/static/css/main.5f076d49.css",
-    "main.js": "/PotatoDoc-Reactjs/static/js/main.728231e4.js",
+    "main.js": "/PotatoDoc-Reactjs/static/js/main.cb3f63fe.js",
     "static/media/fa-solid-900.ttf": "/PotatoDoc-Reactjs/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/fa-brands-400.ttf": "/PotatoDoc-Reactjs/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
     "static/media/bg.png": "/PotatoDoc-Reactjs/static/media/bg.647d61ea687f8a44fd33.png",
@@ -17,10 +17,10 @@
     "static/media/fa-v4compatibility.woff2": "/PotatoDoc-Reactjs/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/PotatoDoc-Reactjs/index.html",
     "main.5f076d49.css.map": "/PotatoDoc-Reactjs/static/css/main.5f076d49.css.map",
-    "main.728231e4.js.map": "/PotatoDoc-Reactjs/static/js/main.728231e4.js.map"
+    "main.cb3f63fe.js.map": "/PotatoDoc-Reactjs/static/js/main.cb3f63fe.js.map"
   },
   "entrypoints": [
     "static/css/main.5f076d49.css",
-    "static/js/main.728231e4.js"
+    "static/js/main.cb3f63fe.js"
   ]
 }
