@@ -9,13 +9,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/PotatoDoc-Reactjs" element={<PotatoDoc />}></Route>
-          <Route path="/info" element={<Information />} />
-          <Route path="/disease" element={<Disease />} />
-          <Route path="/pest" element={<Maintenance />} />
-        </Routes>
+     <BrowserRouter>
+      <Routes>
+        <Route path="/PotatoDoc-Reactjs" element={<PotatoDoc />} />
+        <Route path="/PotatoDoc-Reactjs/info" element={<Information />} />
+        <Route path="/PotatoDoc-Reactjs/disease" element={<Disease />} />
+        <Route path="/PotatoDoc-Reactjs/pest" element={<Maintenance />} />
+      </Routes>
       </BrowserRouter>
     </div>
   );

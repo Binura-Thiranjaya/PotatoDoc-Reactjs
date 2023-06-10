@@ -34,7 +34,7 @@ export default function navbar() {
           <div className="navbar-nav">
             <Link
               className="nav-link custom-btn btn-1 shadow-none"
-              to="/info"
+              to="/PotatoDoc-Reactjs/info"
             >
               Information
             </Link>
@@ -42,7 +42,7 @@ export default function navbar() {
           <div className="navbar-nav">
             <Link
               className="nav-link custom-btn btn-1 shadow-none"
-              to="/disease"
+              to="/PotatoDoc-Reactjs/disease"
             >
               Disease Management
             </Link>
@@ -56,7 +56,7 @@ export default function navbar() {
           <div className="navbar-nav ">
             <Link
               className="nav-link custom-btn btn-1 shadow-none"
-              to="/pest"
+              to="/PotatoDoc-Reactjs/pest"
             >
               Pest Management
             </Link>
