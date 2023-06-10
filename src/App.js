@@ -12,9 +12,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/PotatoDoc-Reactjs" element={<PotatoDoc />}></Route>
-          <Route path="/PotatoDoc-Reactjs/info" element={<Information />} />
-          <Route path="/PotatoDoc-Reactjs/disease" element={<Disease />} />
-          <Route path="/PotatoDoc-Reactjs/pest" element={<Maintenance />} />
+          <Route path="/info" element={<Information />} />
+          <Route path="/disease" element={<Disease />} />
+          <Route path="/pest" element={<Maintenance />} />
         </Routes>
       </BrowserRouter>
     </div>

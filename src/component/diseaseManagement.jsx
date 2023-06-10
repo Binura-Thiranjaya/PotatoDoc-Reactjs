@@ -5,26 +5,27 @@ import Disease from "../assets/image/disease.png";
 export default function DiseaseManagement() {
   //fetch data
   const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
   //use async on page load
-  window.onload = async () => {
-    const DiseaseAPI = process.env.REACT_APP_BACKEND_API;
-    const response = await fetch(DiseaseAPI+"disease");
-    const data = await response.json();
-    setData(data);
-  };
+  // window.onload = async () => {
+  //   const DiseaseAPI = process.env.REACT_APP_BACKEND_API;
+  //   const response = await fetch(DiseaseAPI+"disease");
+  //   const data = await response.json();
+  //   setData(data);
+  //   console.log(data);
+  // };
 
 
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     const DiseaseAPI = process.env.REACT_APP_BACKEND_API;
-  //     const response = await fetch(DiseaseAPI+"disease");
-  //     const data = await response.json();
-  //     setData(data);
-  //     console.log(data);
-  //     alert("Data Loaded");
-  //   };
-  //   fetchData();
-  // }, []);
+  useEffect(() => {
+    const fetchData = async () => {
+      const DiseaseAPI = process.env.REACT_APP_BACKEND_API;
+      const response = await fetch(DiseaseAPI+"disease");
+      const data = await response.json();
+      setData(data);
+      setLoading(false);
+    };
+    fetchData();
+  }, []);
   
 
 
@@ -60,6 +61,14 @@ export default function DiseaseManagement() {
           </div>
         </div>
         <div className="details pt-4">
+          {/* loader */}
+          {loading && (
+            <div className="d-flex justify-content-center">
+              <div className="spinner-border text-primary" role="status">
+                <span className="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          )}
           {data.map((item, index) => {
             return (
               <div className="row" key={index}>
@@ -72,7 +81,7 @@ export default function DiseaseManagement() {
                     aria-expanded="false"
                     aria-controls={item.subname}
                   >
-                    {item.id}. {item.name}
+                    <label className="h6 text-center">{item.name}</label>
                   </button>
                 </p>
                 <div className="collapse" id={item.subname}>
