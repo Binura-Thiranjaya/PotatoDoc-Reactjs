@@ -115,7 +115,7 @@ export default function DiseaseManagement() {
                           return (
                             <div className="pb-1" key={index}>
                               <div className="">
-                                <iframe
+                                {/* <iframe
                                   src={image.image}
                                   width="300px"
                                   height="200px"
@@ -123,14 +123,14 @@ export default function DiseaseManagement() {
                                   scrolling="no"
                                   className="rounded-3"
                                   title={item.name}
-                                ></iframe>
-                                {/* <img
-                                  src={require(`../assets/POTATODOC-DISEASE/${item.name}/${image.image}`)}
+                                ></iframe> */}
+                                <img
+                                  src={image.image}
                                   alt="Disease"
                                   width="200px"
                                   height="200px"
                                   className="rounded-3"
-                                /> */}
+                                />
                               </div>
                             </div>
                           );
