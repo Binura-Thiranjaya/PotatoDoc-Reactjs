@@ -126,7 +126,7 @@ export default function DiseaseManagement() {
                                 ></iframe> */}
                                 <img
                                   src={image.image}
-                                  alt="Disease"
+                                  alt={item.name}
                                   width="200px"
                                   height="200px"
                                   className="rounded-3"
