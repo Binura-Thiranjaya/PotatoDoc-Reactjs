@@ -129,9 +129,9 @@ export default function Potatodoc() {
   };
   const getTreatmentNumber = (value) => {
     switch (value) {
-      case "Early Blight":
-        return 1;
       case "Late Blight":
+        return 1;
+      case "Early Blight":
         return 2;
       default:
         return 0;
