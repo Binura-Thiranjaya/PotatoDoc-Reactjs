@@ -1,0 +1,81 @@
+{data.map((item) => (
+  <div className="row" key={item.id}>
+              <div className="treatments">
+                <div className="treatments-title">Treatments</div>
+                <div className="treatments-content">
+                  {treatments.map((treatment) => (
+                    <div className="treatments" key={treatment.id}>
+                      <p className="treatments-title">{treatment.name}</p>
+                      <div className="treatments-details">
+                        {/* image,description,treatments,fungicides */}
+                        <div className="row">
+                          <div className="col">
+                            <img src="" alt="" />
+                          </div>
+                          <div className="col"></div>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+
+
+
+            {/* {treatments.length > 0 ? (
+                    treatments.map((treatment, index) => (
+                      <div className="treatment" key={index}>
+                        <div className="treatment-title">
+                          {treatment.name}
+                        </div>
+                        <div className="treatment-content">
+
+                        </div>
+                      </div>
+                    ))
+                  ) : (
+                    <div className="treatment-placeholder">
+                      No treatments yet.{treatments.length}
+                    </div>
+                  )} */}
+
+
+
+{treatmentLoader ? (
+    <div className="treatment">
+
+<div className="row" key={item.id}>
+              <div className="treatments">
+                <div className="treatments-title">Treatments</div>
+                <div className="treatments-content">
+                      <p className="treatments-title">{treatment.name}</p>
+                      <div className="treatments-details">            
+                        <div className="row">
+                          <div className="col">
+                            <img src="" alt="" />
+                          </div>
+                          <div className="col">
+                            <img src="" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+
+
+<div className="col">
+                            
+                            {/* <img src={treatments.image[0]} alt="" /> */}
+                          </div>
+                          <div className="col">
+                            {/* <img src={treatments.image[1]} alt="" /> */}
+                          </div>
+            
+        </div>
+    </div>
+) : (
+    <div></div>
+)}

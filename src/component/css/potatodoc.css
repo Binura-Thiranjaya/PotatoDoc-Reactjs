@@ -120,3 +120,31 @@
   }
   
   /* End Predication */
+
+  /* treatments */
+  .treatments{
+    background-color: rgb(255, 251, 251);
+    border-radius: 40px 40px;
+    max-width:max-content;
+    margin: auto;
+  }
+
+  .treatments-title{
+    font-size: var(--text-medium);
+    font-weight: var(--font-weight-regular);
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .treatments-heading{
+    font-size: var(--header4);
+    font-weight: var(--font-weight-medium);
+    text-align: center;
+  }
+  .treatments-details{
+    /* col size */
+  }
+  .treatments-subtopic{
+    font-size: var(--text-medium);
+    font-weight: var(--font-weight-medium);
+    padding-bottom: 1%;
+  }
