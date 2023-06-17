@@ -22,18 +22,18 @@ export default function footer() {
             <div className="service">
               <ul>
                 <li>
-                  <a href="/info">Information</a>
+                  <a href="/PotatoDoc-Reactjs/info">Information</a>
                 </li>
               </ul>
               <ul>
                 <li>
                   {" "}
-                  <a href="/disease">Disease Management </a>
+                  <a href="/PotatoDoc-Reactjs/disease">Disease Management </a>
                 </li>
               </ul>
               <ul>
                 <li>
-                  <a href="/pest">Pest Management</a>
+                  <a href="/PotatoDoc-Reactjs/pest">Pest Management</a>
                 </li>
               </ul>
             </div>
@@ -74,7 +74,7 @@ export default function footer() {
       </div>
       <div className="pt-3 pb-1 bg-danger">
         <p className="text-center h6">
-          Project By Binura Thiranjaya @2023 Version: 1.8
+          Project By Binura Thiranjaya @2023 Version: 1.9
         </p>
       </div>
     </div>
