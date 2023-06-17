@@ -148,3 +148,8 @@
     font-weight: var(--font-weight-medium);
     padding-bottom: 1%;
   }
+  .treatment-description{
+    text-align: center;
+    font-size: var(--text-medium);
+    font-weight: var(--font-weight-regular);
+  }

@@ -264,93 +264,95 @@ export default function Potatodoc() {
                   )}
                 </div>
               </div>
-              <hr />           
+              <hr />
             </div>
             <div className="">
-                {treatmentLoader ? (
-                  // print hello world
-                  <div className="treatments">
-                    <div className="treatments-heading">Treatments</div>
-                    <div className="treatments-content">
-                      <p className="treatments-title">{treatments.name}</p>
-                      <div className="treatments-details">
-                        <div className="d-flex justify-content-center">
-                          <div className="col-md-6">
-                            <div className="treatments-image">
-                              <img
-                                src={treatments.images[0].image}
-                                alt="Treatment"
-                                className="img-fluid"
-                                width="400px"
-                                style={{ height: "400px" }}
-                              />
-                            </div>
-                          </div>
-                          <div className="col-md-6">
-                            <div className="treatments-image">
-                              <img
-                                src={treatments.images[1].image}
-                                alt="Treatment"
-                                className="img-fluid"
-                                width="400px"
-                                style={{ height: "400px" }}
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div className="d-flex pt-3 pb-2">
+              {treatmentLoader ? (
+                // print hello world
+                <div className="treatments">
+                  <div className="treatments-heading">Treatments</div>
+                  <div className="treatments-content">
+                    <p className="treatments-title">{treatments.name}</p>
 
+                    <div className="treatments-details">
+                      <div className="d-flex justify-content-center">
                         <div className="col-md-6">
-                        <div className="treatment-method">
-                          <p className="treatments-subtopic">1. Treatment Methods</p>
-                          {treatments.treatments.map((treatment, index) => {
-                            return (
-                              <div
-                                className="treatment-list"
-                                key={index}
-                              >
-                                <ul>
-                                  <li>
-                                  <div className="treatment-title">
-                                  {treatment.treatment}
-                                </div>
-                                  </li>
-                                </ul>
-                                
-                              </div>
-                            );
-                          })}
-                        </div>
+                          <div className="treatments-image">
+                            <img
+                              src={treatments.images[0].image}
+                              alt="Treatment"
+                              className="img-fluid"
+                              width="400px"
+                              style={{ height: "400px" }}
+                            />
+                          </div>
                         </div>
                         <div className="col-md-6">
-                        <div className="treatment-fungicides">
-                          <p className="treatments-subtopic">2. Fungicides</p>
-                          {treatments.fungicides.map((fungicide, index) => {
-                            return (
-                              <div
-                                className="treatment-list"
-                                key={index}
-                              >
-                                <ul>
-                                  <li>
-                                  <div className="treatment-title">
-                                  {fungicide.fungicide}
-                                  </div>
-                                  </li>
-                                </ul>
+                          <div className="treatments-image">
+                            <img
+                              src={treatments.images[1].image}
+                              alt="Treatment"
+                              className="img-fluid"
+                              width="400px"
+                              style={{ height: "400px" }}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="d-flex justify-content-center pt-3">
+                        <div className="treatment-description w-75">
+                          <p className="">{treatments.description}</p>
+                        </div>
+                      </div>
+
+                      <div className="d-flex pt-3 pb-2">
+                        <div className="col-md-6">
+                          <div className="treatment-method">
+                            <p className="treatments-subtopic">
+                              1. Treatment Methods
+                            </p>
+                            {treatments.treatments.map((treatment, index) => {
+                              return (
+                                <div className="treatment-list" key={index}>
+                                  <ul>
+                                    <li>
+                                      <div className="treatment-title">
+                                        {treatment.treatment}
+                                      </div>
+                                    </li>
+                                  </ul>
                                 </div>
-                            );
-                          })}
+                              );
+                            })}
+                          </div>
                         </div>
-                        </div>
+                        <div className="col-md-6">
+                          <div className="treatment-fungicides">
+                            <p className="treatments-subtopic">2. Fungicides</p>
+                            {treatments.fungicides.map((fungicide, index) => {
+                              return (
+                                <div className="treatment-list" key={index}>
+                                  <ul>
+                                    <li>
+                                      <div className="treatment-title">
+                                        {fungicide.fungicide}
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </div>
+                              );
+                            })}
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                ) : (
-                  <div></div>
-                )}
-              </div>
+                </div>
+              ) : (
+                <div></div>
+              )}
+            </div>
             <div className="image-view pb-3 pt-5">
               <div className="d-flex justify-content-center">
                 <button
