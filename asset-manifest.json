@@ -1,14 +1,29 @@
 {
   "files": {
-    "main.css": "/PotatoDoc-Reactjs/static/css/main.a7be8397.css",
-    "main.js": "/PotatoDoc-Reactjs/static/js/main.8895cdb5.js",
+    "main.css": "/PotatoDoc-Reactjs/static/css/main.330e4303.css",
+    "main.js": "/PotatoDoc-Reactjs/static/js/main.7c073425.js",
+    "static/media/WM-Pupa-stage-of-black-cut-worm.jpg": "/PotatoDoc-Reactjs/static/media/WM-Pupa-stage-of-black-cut-worm.e4665a050e33009ec9ad.jpg",
+    "static/media/WM-Damage-symptom-of-black-cut-worm-on-potato-plant.jpg": "/PotatoDoc-Reactjs/static/media/WM-Damage-symptom-of-black-cut-worm-on-potato-plant.85f10a7993ac399499e2.jpg",
+    "static/media/WM-Black-cut-worm-Adult-Gray-colour-medium-size-moth.jpg": "/PotatoDoc-Reactjs/static/media/WM-Black-cut-worm-Adult-Gray-colour-medium-size-moth.9d35c7f00c9f8c4643da.jpg",
+    "static/media/WM-Larval-Stage-of-Potato-tuber-moth.jpg": "/PotatoDoc-Reactjs/static/media/WM-Larval-Stage-of-Potato-tuber-moth.93217870cdd3cfd7157c.jpg",
+    "static/media/WM-Damage-symptom-of-black-cut-worm-on-potato-tuber.jpg": "/PotatoDoc-Reactjs/static/media/WM-Damage-symptom-of-black-cut-worm-on-potato-tuber.449b03c2ef566f2b3eba.jpg",
     "static/media/fa-solid-900.ttf": "/PotatoDoc-Reactjs/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/WM-Severe-aphids-infestation-Cause-leaflets-rolling-growth-disturbance-and-develop-aberrant-top.jpg": "/PotatoDoc-Reactjs/static/media/WM-Severe-aphids-infestation-Cause-leaflets-rolling-growth-disturbance-and-develop-aberrant-top.551bba94c25b4f307462.jpg",
+    "static/media/WM-Aphids-are-colonized-under-side-of-the-leaves-and-pierce-cells-to-suck-up-sap-from-the-plant.jpg": "/PotatoDoc-Reactjs/static/media/WM-Aphids-are-colonized-under-side-of-the-leaves-and-pierce-cells-to-suck-up-sap-from-the-plant.21db354ac7aaaaa3bfce.jpg",
+    "static/media/WM-Black-cut-worm-Larvae.jpg": "/PotatoDoc-Reactjs/static/media/WM-Black-cut-worm-Larvae.f2cd51c9eed4a3e7c0a0.jpg",
+    "static/media/WM-Leaf-miner-adult-flies-punctured-leaf-by-using-ovipositor-and-deposits-eggs-on-the-upper-side-of-the-leaf.jpg": "/PotatoDoc-Reactjs/static/media/WM-Leaf-miner-adult-flies-punctured-leaf-by-using-ovipositor-and-deposits-eggs-on-the-upper-side-of-the-leaf.37e7e4b0d4da76a37e5a.jpg",
+    "static/media/WM-Potato-Tuber-moth-larval-damage-symptom-on-potato-leaves.jpg": "/PotatoDoc-Reactjs/static/media/WM-Potato-Tuber-moth-larval-damage-symptom-on-potato-leaves.73570f99dc7f62b93c3e.jpg",
+    "static/media/WM-Pupal-Stage-of-Potato-Tuber-moth.jpg": "/PotatoDoc-Reactjs/static/media/WM-Pupal-Stage-of-Potato-Tuber-moth.eb353479d956e967fae2.jpg",
+    "static/media/WM-Leaf-miner-larval-damage-symptom-on-potato-leaves.jpg": "/PotatoDoc-Reactjs/static/media/WM-Leaf-miner-larval-damage-symptom-on-potato-leaves.d4cbb0dc76661ade91d9.jpg",
+    "static/media/WM-cross-section-of-potato-tuber-with-mines-of-the-larvae-of-the-potato-tuber-moth.jpg": "/PotatoDoc-Reactjs/static/media/WM-cross-section-of-potato-tuber-with-mines-of-the-larvae-of-the-potato-tuber-moth.7a7d2fed05ada4345739.jpg",
+    "static/media/WM-damage-symptom-of-potato-tuber-moth-larvae-under-storage-conditions-on-seed-potato.jpg": "/PotatoDoc-Reactjs/static/media/WM-damage-symptom-of-potato-tuber-moth-larvae-under-storage-conditions-on-seed-potato.b2ee2e7657f7ecca8e96.jpg",
     "static/media/fa-brands-400.ttf": "/PotatoDoc-Reactjs/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
     "static/media/bg.png": "/PotatoDoc-Reactjs/static/media/bg.647d61ea687f8a44fd33.png",
     "static/media/fa-solid-900.woff2": "/PotatoDoc-Reactjs/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
     "static/media/fa-brands-400.woff2": "/PotatoDoc-Reactjs/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
     "static/media/info.png": "/PotatoDoc-Reactjs/static/media/info.ff18e1ada60f68cd59ad.png",
     "static/media/disease.png": "/PotatoDoc-Reactjs/static/media/disease.cd0143c48018aaf77f37.png",
+    "static/media/WM-Potato-Tuber-moth.jpg": "/PotatoDoc-Reactjs/static/media/WM-Potato-Tuber-moth.a6aacfd5f00bcf45e256.jpg",
     "static/media/fa-regular-400.ttf": "/PotatoDoc-Reactjs/static/media/fa-regular-400.d87474231f4192884802.ttf",
     "static/media/pest.png": "/PotatoDoc-Reactjs/static/media/pest.05176eedb4b9d8ffbfe4.png",
     "static/media/potatodoc-logo-removebg-preview.png": "/PotatoDoc-Reactjs/static/media/potatodoc-logo-removebg-preview.bc6e296557783029e777.png",
@@ -16,11 +31,11 @@
     "static/media/fa-v4compatibility.ttf": "/PotatoDoc-Reactjs/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/PotatoDoc-Reactjs/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/PotatoDoc-Reactjs/index.html",
-    "main.a7be8397.css.map": "/PotatoDoc-Reactjs/static/css/main.a7be8397.css.map",
-    "main.8895cdb5.js.map": "/PotatoDoc-Reactjs/static/js/main.8895cdb5.js.map"
+    "main.330e4303.css.map": "/PotatoDoc-Reactjs/static/css/main.330e4303.css.map",
+    "main.7c073425.js.map": "/PotatoDoc-Reactjs/static/js/main.7c073425.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7be8397.css",
-    "static/js/main.8895cdb5.js"
+    "static/css/main.330e4303.css",
+    "static/js/main.7c073425.js"
   ]
 }
