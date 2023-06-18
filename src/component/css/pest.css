@@ -81,3 +81,13 @@
     color: var(--gray-1);
     padding-top: 1%;
 }
+.special-word{
+    font-style: italic;
+}
+.pest-subtitle {
+    font-weight: var(--font-weight-medium);
+    font-size: var(--text-medium);
+    padding-bottom: 5px;
+    color: var(--gray-1);
+    list-style: none;
+}
