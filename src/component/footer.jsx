@@ -74,7 +74,7 @@ export default function footer() {
       </div>
       <div className="pt-3 pb-1 bg-danger">
         <p className="text-center h6">
-          Project By Binura Thiranjaya @2023 Version: 1.9
+          Project By Binura Thiranjaya @2023 Version: 2.1.1
         </p>
       </div>
     </div>

@@ -14,7 +14,7 @@ function App() {
         <Route path="/PotatoDoc-Reactjs" element={<PotatoDoc />} />
         <Route path="/PotatoDoc-Reactjs/info" element={<Information />} />
         <Route path="/PotatoDoc-Reactjs/disease" element={<Disease />} />
-        <Route path="/PotatoDoc-Reactjs/pest" element={<Maintenance />} />
+        <Route path="/PotatoDoc-Reactjs/pest" element={<Pest />} />
       </Routes>
       </BrowserRouter>
     </div>

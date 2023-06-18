@@ -1,16 +1,16 @@
-/* .disease-title{
+/* .pest-title{
     font-weight: var(--font-weight-bold);
     font-size: var(--header1);
     color: var(--dark-brown);
     line-height:  74px;
     padding-top: 1%;
 }
-.disease-image{
+.pest-image{
     width: 400px;
     height: 300px;
 } */
 
-.disease-title{
+.pest-title{
     font-weight: var(--font-weight-bold);
     font-size: var(--header1);
     color: var(--dark-brown);
@@ -18,15 +18,15 @@
     padding-top: 1%;
 }
 
-.disease-content-left{
+.pest-content-left{
     float: left;
     padding-left: 5%;
 }
-.disease-content-right{
+.pest-content-right{
     float: right;
     padding-right: 5%;
 }
- .disease-text{
+ .pest-text{
     font-weight: var(--font-weight-regular);
     font-size: var(--text-regular);
     color: var(--gray-1);
@@ -34,31 +34,37 @@
     padding-top: 4%;
     text-align: justify;
 }
- .disease-image{
+ .pest-image{
     width: 100%;
     height: 300px;
     /* display: flex;
     justify-content: center; */
 }
-.disease-varieties .disease-sub-title{
+.pest-varieties .pest-sub-title{
     font-weight: var(--font-weight-bold);
     font-size: var(--header4);
     color: var(--primary-light);
     line-height:  74px;
     padding-top: 1%;
 }
-.disease-varieties .disease-sub-content ul{
+.pest-varieties .pest-sub-content ul{
     font-size: var(--text-medium);
     color: black;
     font-weight: var(--font-weight-semi-bold);
     
 }
-/* .disease-right-title{
+.pest-subtopic{
+    font-weight: var(--font-weight-bold);
+    font-size: var(--header4);
+    color: var(--dark-brown);
+    line-height:  74px;
+}
+/* .pest-right-title{
     font-weight: var(--font-weight-semi-bold);
     font-size: var(--header2);
     color: var(--primary-light);
 }
-.disease-right-subtitle {
+.pest-right-subtitle {
     font-weight: var(--font-weight-medium);
     font-size: var(--header4);
     color: var(--gray-1);

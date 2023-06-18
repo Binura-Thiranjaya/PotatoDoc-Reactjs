@@ -5,6 +5,14 @@
     line-height:  74px;
     padding-top: 1%;
 }
+.disease-content-left{
+    float: left;
+    padding-left: 5%;
+}
+.disease-content-right{
+    float: right;
+    padding-right: 5%;
+}
 .card-title{
     font-weight: var(--font-weight-bold);
     font-size: var(--header4);
@@ -12,10 +20,12 @@
     line-height:  74px;
     padding-top: 1%;
 }
-.disease_data{
-    font-weight: var(--font-weight-semi-bold);
+.disease-text{
+    font-weight: var(--font-weight-regular);
     font-size: var(--text-regular);
     color: var(--gray-1);
+    line-height:  31px;
+    padding-top: 4%;
     text-align: justify;
 }
 .text-primary{
