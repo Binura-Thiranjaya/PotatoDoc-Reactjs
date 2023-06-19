@@ -1,5 +1,7 @@
 import React from "react";
 import "./css/footer.css";
+import { Link } from "react-router-dom";
+
 export default function footer() {
   return (
     <div className=" pt-4" style={{ color: "black" }}>
@@ -22,18 +24,34 @@ export default function footer() {
             <div className="service">
               <ul>
                 <li>
-                  <a href="/PotatoDoc-Reactjs/info">Information</a>
+                  <Link className="shadow-none" to="/PotatoDoc-Reactjs">
+                    Home
+                  </Link>
                 </li>
               </ul>
               <ul>
                 <li>
-                  {" "}
-                  <a href="/PotatoDoc-Reactjs/disease">Disease Management </a>
+                  <Link className="shadow-none" to="/PotatoDoc-Reactjs/info">
+                    Information
+                  </Link>
                 </li>
               </ul>
               <ul>
                 <li>
-                  <a href="/PotatoDoc-Reactjs/pest">Pest Management</a>
+                  <Link className="shadow-none" to="/PotatoDoc-Reactjs/disease">
+                    Disease Management
+                  </Link>{" "}
+                </li>
+              </ul>
+
+              <ul>
+                <li>
+                  <Link
+                    className="shadow-none"
+                    to="/PotatoDoc-Reactjs/pest"
+                  >
+                    Pest Management
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -74,7 +92,7 @@ export default function footer() {
       </div>
       <div className="pt-3 pb-1 bg-danger">
         <p className="text-center h6">
-          Project By Binura Thiranjaya @2023 Version: 2.1.2
+          Project By Binura Thiranjaya @2023 Version: 2.1.3
         </p>
       </div>
     </div>
