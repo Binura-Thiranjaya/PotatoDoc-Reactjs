@@ -1,6 +1,7 @@
 /* Navbar */
 .navbar-brand img{
     padding-right: 1px;
+    background-size: cover;
 }
 .navbar-nav{
     padding-top: 1%;
