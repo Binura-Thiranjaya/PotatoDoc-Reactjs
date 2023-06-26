@@ -46,8 +46,9 @@ export default function pestManagement() {
             </div>
           </div>
         </div>
-        <div className="pest-details-container">
+        <div className="pest-details-container d-flex">
           {/* 1 */}
+          <div className="col-6">
           <div className="row">
             <p>
               <button
@@ -750,6 +751,8 @@ export default function pestManagement() {
               </div>
             </p>
           </div>
+          </div>
+          <div className="col-6">
           {/* 6 */}
           <div className="row">
             <p>
@@ -1082,6 +1085,8 @@ export default function pestManagement() {
               </div>
             </p>
           </div>
+          </div>
+
         </div>
       </div>
     </div>
