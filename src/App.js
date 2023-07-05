@@ -5,6 +5,7 @@ import Disease from "./page/disease/index.jsx";
 import Pest from "./page/pest/index.jsx";
 import Maintenance from "./page/maintenance/index.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Chatbot from "../src/component/chatbot/index.jsx"
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
         <Route path="/PotatoDoc-Reactjs/pest" element={<Pest />} />
       </Routes>
       </BrowserRouter>
+      <Chatbot />
     </div>
+
   );
 }
 

@@ -46,10 +46,7 @@ export default function footer() {
 
               <ul>
                 <li>
-                  <Link
-                    className="shadow-none"
-                    to="/PotatoDoc-Reactjs/pest"
-                  >
+                  <Link className="shadow-none" to="/PotatoDoc-Reactjs/pest">
                     Pest Management
                   </Link>
                 </li>
@@ -89,6 +86,9 @@ export default function footer() {
             </div>
           </div> */}
         </div>
+
+
+
       </div>
       <div className="pt-3 pb-1 bg-danger">
         <p className="text-center h6">
