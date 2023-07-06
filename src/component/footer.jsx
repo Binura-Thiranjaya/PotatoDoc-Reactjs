@@ -98,7 +98,7 @@ export default function Footer() {
       </div>
       <div className="pt-3 pb-1 bg-danger">
         <p className="text-center h6">
-          Project By Binura Thiranjaya @2023 Version: 2.1.4
+          Project By Binura Thiranjaya @2023 Version: {process.env.REACT_APP_VERSION}
         </p>
       </div>
     </div>
