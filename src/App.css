@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap");
 
-:root{
+:root {
   /*  Colors */
   --primary: #fbc257;
-  --primary-light: #FCCC73;
+  --primary-light: #fccc73;
   --dark-brown: #341413;
   --gray-1: #798092;
-  --gray-2: #E6E6ED;
-  --WHITE: #FFffff;
+  --gray-2: #e6e6ed;
+  --WHITE: #ffffff;
 
   /* Font Size Desktop */
-  --header1 :64px;
-  --header2 :48px;
-  --header3 :42px;
-  --header4 :32px;
+  --header1: 64px;
+  --header2: 48px;
+  --header3: 42px;
+  --header4: 32px;
 
   --text-medium: 18px;
   --text-regular: 16px;
@@ -27,19 +27,21 @@
   --font-weight-light: 300;
 
   /* Chat Bot */
-  --primaryGradient: linear-gradient(93.12deg, #581B98 0.52%, #9C1DE7 100%);
-    --secondaryGradient: linear-gradient(268.91deg, #581B98 -2.14%, #9C1DE7 99.69%);
-    --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
-    --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
-    --primaryChatbot: #581B98;
-
+  --primaryGradient: linear-gradient(93.12deg, #6c00df 0.52%, #85e71d 100%);
+  --secondaryGradient: linear-gradient(
+    268.91deg,
+    #581b98 -2.14%,
+    #9c1de7 99.69%
+  );
+  --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
+  --primaryChatbot: #581b98;
 }
-body{
-  font-family: 'Popins', sans-serif;
-
+body {
+  font-family: "Popins", sans-serif;
 }
 /* Button Primary */
-.btn{
+.btn {
   padding: 15px 25px;
   border-radius: 6px;
   font-weight: var(--font-weight-medium);
@@ -47,32 +49,30 @@ body{
   border: none;
 }
 
-.btn-primary{
+.btn-primary {
   background-color: var(--primary);
 }
-.btn-primary:focus{
+.btn-primary:focus {
   background-color: var(--primary-light);
 }
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: var(--primary-light);
 }
 
 /* Button Secondary */
-.btn-secondary{
+.btn-secondary {
   background-color: var(--gray-2);
   color: var(--gray-1);
 }
-.btn-secondary:focus{
+.btn-secondary:focus {
   background-color: var(--WHITE);
   box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.05) !important;
   color: var(--gray-1);
 }
-.btn-secondary:hover{
+.btn-secondary:hover {
   background-color: var(--WHITE) !important;
   box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.05) !important;
-  color: var(--gray-1)
+  color: var(--gray-1);
 }
 
 /* AOS */
-
-
