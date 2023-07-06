@@ -1,8 +1,14 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Swal from "sweetalert2";
 import "./css/potatodoc.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Potatodoc() {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
   const [selectedImage, setSelectedImage] = useState(null);
   const [loader, setLoader] = useState(false);
   const [treatmentLoader, setTreatmentLoader] = useState(false);
@@ -208,7 +214,7 @@ export default function Potatodoc() {
   };
 
   return (
-    <div className="container" id="image-engine" name="image-engine">
+    <div className="container" id="image-engine" name="image-engine" data-aos="zoom-in-up">
       <div className="engine">
         <div className="engine-title">PotatoDoc | AI</div>
         <div className="engine-subtitle">Potato Leaf Disease Detection</div>

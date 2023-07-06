@@ -1,10 +1,16 @@
 import React from "react";
+import { useEffect } from "react";
 import "./css/footer.css";
 import { Link } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-export default function footer() {
+export default function Footer() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
-    <div className=" pt-4" style={{ color: "black" }}>
+    <div className=" pt-4" style={{ color: "black" }} data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div className="footer">
         <div className="row">
           <div className="col">

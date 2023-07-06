@@ -25,6 +25,14 @@
   --font-weight-medium: 500;
   --font-weight-regular: 400;
   --font-weight-light: 300;
+
+  /* Chat Bot */
+  --primaryGradient: linear-gradient(93.12deg, #581B98 0.52%, #9C1DE7 100%);
+    --secondaryGradient: linear-gradient(268.91deg, #581B98 -2.14%, #9C1DE7 99.69%);
+    --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
+    --primaryChatbot: #581B98;
+
 }
 body{
   font-family: 'Popins', sans-serif;
@@ -64,4 +72,7 @@ body{
   box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.05) !important;
   color: var(--gray-1)
 }
+
+/* AOS */
+
 

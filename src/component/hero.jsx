@@ -1,9 +1,14 @@
 import React from "react";
-import { useState } from "react";
+import { useEffect } from "react";
 import "./css/hero.css";
 import BgImage from "../assets/image/bg.png";
-export default function Hero() {
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+export default function Hero() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <section className="hero" style={{ backgroundImage:`url(${BgImage})`}}>
       <div className="container">
@@ -14,7 +19,7 @@ export default function Hero() {
               <div className="text-hero-bold">
                 Potato Leaf Disease Detection
               </div>
-              <div className="text-hero-regular">
+              <div className="text-hero-regular" data-aos="fade-up" data-aos-duration="1000">
                 PotatoDoc is an innovative solution that leverages the power of
                 image processing and machine learning to identify potato plant
                 diseases accurately and quickly. By simply capturing an image of
