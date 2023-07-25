@@ -84,8 +84,8 @@ const Chatbox = () => {
                 </p>
               </div>
             </div>
-            <div className="chatbox__messages" id="chatbox__messages">
-              <div></div>
+            <div className="chatbox__messages" id="chatbox__messages" >
+              <div style={{overflow: `scroll`}}></div>
             </div>
             <div className="chatbox__footer">
               <input type="text" placeholder="Write a message..." id="message" onKeyUp={handleKeyPress} />

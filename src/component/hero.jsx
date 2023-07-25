@@ -1,16 +1,17 @@
 import React from "react";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./css/hero.css";
 import BgImage from "../assets/image/bg.png";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Hero() {
   useEffect(() => {
     AOS.init();
-  }, [])
+  }, []);
   return (
-    <section className="hero" style={{ backgroundImage:`url(${BgImage})`}}>
+    <section className="hero" style={{ backgroundImage: `url(${BgImage})` }}>
       <div className="container">
         <div className="row">
           <div className="col-md-6">
@@ -19,7 +20,11 @@ export default function Hero() {
               <div className="text-hero-bold">
                 Potato Leaf Disease Detection
               </div>
-              <div className="text-hero-regular" data-aos="fade-up" data-aos-duration="1000">
+              <div
+                className="text-hero-regular"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 PotatoDoc is an innovative solution that leverages the power of
                 image processing and machine learning to identify potato plant
                 diseases accurately and quickly. By simply capturing an image of
@@ -33,23 +38,33 @@ export default function Hero() {
               </div>
               <div className="row">
                 <div className="col col-lg-4 pb-1">
-                <a href="#image-engine" className="btn btn-primary shadow-none ">
-                  Get Started
-                </a>
+                  <a
+                    href="#image-engine"
+                    className="btn btn-primary shadow-none "
+                  >
+                    Get Started
+                  </a>
                 </div>
                 <div className="col col-lg-4 ">
-                <a href="#" className="btn btn-secondary shadow-none ">
-                  Treatments
-                </a>
+                  <Link
+                    className="btn btn-secondary shadow-none"
+                    to="/PotatoDoc-Reactjs/disease"
+                  >
+                    Treatments
+                  </Link>
                 </div>
-                
               </div>
             </div>
           </div>
           <div className="col-md-6 pt-4 d-flex align-items-center justify-content-center">
-            <div className="rounded-9 w-100 d-flex align-items-center justify-content-center  bg-black bg-opacity-25" style={{height:"250px"}}>
+            <div
+              className="rounded-9 w-100 d-flex align-items-center justify-content-center  bg-black bg-opacity-25"
+              style={{ height: "250px" }}
+            >
               <div className="">
-                <a className="btn btn-primary" href="#image-engine" ><i className='bx bxs-cloud-upload'></i></a>
+                <a className="btn btn-primary" href="#image-engine">
+                  <i className="bx bxs-cloud-upload"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -58,7 +73,8 @@ export default function Hero() {
     </section>
   );
 }
-            {/* <div className="upload container-fluid">
+{
+  /* <div className="upload container-fluid">
               <form>
                 <div className="mb-3">
                   <label htmlFor="image-upload" className="text-label">
@@ -101,4 +117,5 @@ export default function Hero() {
                   </span>
                 </div>
               </form>
-            </div> */}
+            </div> */
+}
