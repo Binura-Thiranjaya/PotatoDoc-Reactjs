@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PotatoDoc-Reactjs/static/css/main.aa48cacb.css",
-    "main.js": "/PotatoDoc-Reactjs/static/js/main.28fdcb87.js",
+    "main.css": "/PotatoDoc-Reactjs/static/css/main.404fb33f.css",
+    "main.js": "/PotatoDoc-Reactjs/static/js/main.07635ce7.js",
     "static/media/WM-Pupa-stage-of-black-cut-worm.jpg": "/PotatoDoc-Reactjs/static/media/WM-Pupa-stage-of-black-cut-worm.e4665a050e33009ec9ad.jpg",
     "static/media/WM-Damage-symptom-of-black-cut-worm-on-potato-plant.jpg": "/PotatoDoc-Reactjs/static/media/WM-Damage-symptom-of-black-cut-worm-on-potato-plant.85f10a7993ac399499e2.jpg",
     "static/media/WM-Black-cut-worm-Adult-Gray-colour-medium-size-moth.jpg": "/PotatoDoc-Reactjs/static/media/WM-Black-cut-worm-Adult-Gray-colour-medium-size-moth.9d35c7f00c9f8c4643da.jpg",
@@ -31,11 +31,12 @@
     "static/media/fa-v4compatibility.ttf": "/PotatoDoc-Reactjs/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/PotatoDoc-Reactjs/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/PotatoDoc-Reactjs/index.html",
-    "main.aa48cacb.css.map": "/PotatoDoc-Reactjs/static/css/main.aa48cacb.css.map",
-    "main.28fdcb87.js.map": "/PotatoDoc-Reactjs/static/js/main.28fdcb87.js.map"
+    "static/media/chatbox-icon.svg": "/PotatoDoc-Reactjs/static/media/chatbox-icon.b6c4b342d489eca90858882ec26815b4.svg",
+    "main.404fb33f.css.map": "/PotatoDoc-Reactjs/static/css/main.404fb33f.css.map",
+    "main.07635ce7.js.map": "/PotatoDoc-Reactjs/static/js/main.07635ce7.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa48cacb.css",
-    "static/js/main.28fdcb87.js"
+    "static/css/main.404fb33f.css",
+    "static/js/main.07635ce7.js"
   ]
 }
