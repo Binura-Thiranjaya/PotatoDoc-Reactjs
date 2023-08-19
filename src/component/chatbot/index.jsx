@@ -33,7 +33,7 @@ const Chatbox = () => {
 
     let msg1 = { name: "User", message: text1 }
     messages.push(msg1);
-    const CHATBOT_API = process.env.REACT_APP_CHATBOT_API;
+    const CHATBOT_API = "http://127.0.0.1:5000";
     const API = CHATBOT_API+"/predict";
     await fetch(API, {
         method: 'POST',
